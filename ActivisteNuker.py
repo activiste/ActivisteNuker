@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 ActivisteTools = commands.Bot(command_prefix='+')
-message = '@everyone Nuked By Activiste tool ! https://github.com/ActivisteNuker'
+message = '@everyone Nuked By Activiste tool ! https://github.com/activiste/ActivisteNuker'
 @ActivisteTools.event
 async def on_ready():
  await ActivisteTools.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name="github.com/activiste"))  
